@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>beforeRunningCommand</key>
+  <string>nop</string>
+  <key>command</key>
+  <string>#!/usr/bin/env ruby18 -wKU
+time = Time.now
+print time.strftime("%Y-%m-%d %k:%M:%S ")
+</string>
+  <key>input</key>
+  <string>selection</string>
+  <key>inputFormat</key>
+  <string>text</string>
+  <key>keyEquivalent</key>
+  <string>^t</string>
+  <key>name</key>
+  <string>instant</string>
+  <key>outputCaret</key>
+  <string>afterOutput</string>
+  <key>outputFormat</key>
+  <string>text</string>
+  <key>outputLocation</key>
+  <string>atCaret</string>
+  <key>uuid</key>
+  <string>C6A19FC8-1D0C-47B3-B19D-591383FAA233</string>
+  <key>version</key>
+  <integer>2</integer>
+</dict>
+</plist>
